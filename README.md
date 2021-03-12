@@ -1,6 +1,6 @@
 A movie discussion portal, where users can login and comment/discuss on movies.
 
-The application uses https://api.themoviedb.org/3 (moviedb api) to get movie data.
+The application uses https://developers.themoviedb.org/3 (moviedb api) to get movie data.
 Reactjs is used to display frontend components, 
 Node.js for backend development and 
 Mongodb is used for keeping a live database.
