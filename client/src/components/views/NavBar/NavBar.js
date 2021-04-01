@@ -4,7 +4,7 @@ import RightMenu from './Sections/RightMenu';
 import { Drawer, Button} from 'antd';
 import './Sections/Navbar.css';
 import Icon from '@ant-design/icons';
-const Logo = 'https://www.whatowatch.net/_include/img/WTW.png';
+const Logo = 'https://www.freelogodesign.org/file/app/client/thumb/727981f1-1b72-4d9a-8029-9598f8555f11_200x200.png?1615623907147';
 
 function NavBar() {
   const [visible, setVisible] = useState(false)
@@ -20,7 +20,7 @@ function NavBar() {
   return (
     <nav className="menu" style={{ position: 'fixed', zIndex: 1, width: '100%' }}>
       <div className="menu__logo">
-        <a href="/"><img src={Logo} alt="Logo" style={{ width: '45%', marginTop: '-5px' }} /></a>
+        <a href="/"><img src={Logo} alt="Logo" style={{ width: '50%', marginTop: '-7px' }} /></a>
       </div>
       <div className="menu__container">
         <div className="menu_left">
